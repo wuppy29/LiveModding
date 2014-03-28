@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wuppy29_cheesemodding",
+  "name": "Cheese Mod",
+  "description": "Adds cheese ore, armour and tools",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Wuppy29", "MartijnWoudstra", "14mRh4X0r"],
+  "credits": "All the people watching the livestream. Thank you!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

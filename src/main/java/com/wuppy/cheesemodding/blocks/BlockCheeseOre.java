@@ -1,7 +1,7 @@
-package com.wuppy.livemodding.blocks;
+package com.wuppy.cheesemodding.blocks;
 
-import com.wuppy.livemodding.help.Reference;
-import com.wuppy.livemodding.items.ModItems;
+import com.wuppy.cheesemodding.help.Reference;
+import com.wuppy.cheesemodding.items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -9,12 +9,12 @@ import net.minecraft.item.Item;
 
 import java.util.Random;
 
-public class BlockLiveOre extends Block
+public class BlockCheeseOre extends Block
 {
-	public BlockLiveOre()
+	public BlockCheeseOre()
 	{
 		super(Material.rock);
-		setBlockName("liveOre");
+		setBlockName("cheeseOre");
 		setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabs.tabBlock);
 		setStepSound(soundTypePiston);
@@ -29,6 +29,6 @@ public class BlockLiveOre extends Block
 	@Override
 	public Item getItemDropped(int metadata, Random rand, int fortune)
     {
-		return ModItems.liveIngot;
+		return ModItems.cheeseIngot;
     }
 }
