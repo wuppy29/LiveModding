@@ -1,18 +1,18 @@
-package com.wuppy.livemodding.items;
+package com.wuppy.cheesemodding.items;
 
-import com.wuppy.livemodding.help.Reference;
+import com.wuppy.cheesemodding.help.Reference;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
 /**
- * ItemLiveArmor
+ * ItemCheeseArmor
  *
  * This is the armor.
  */
-public class ItemLiveArmor extends ItemArmor
+public class ItemCheeseArmor extends ItemArmor
 {
-	public ItemLiveArmor(ArmorMaterial material, int armorType, String name)
+	public ItemCheeseArmor(ArmorMaterial material, int armorType, String name)
 	{
 		super(material, 0, armorType);
 		setUnlocalizedName(name);
@@ -25,13 +25,13 @@ public class ItemLiveArmor extends ItemArmor
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 	{
-		if(stack.getItem() == ModItems.liveHelmet)
+		if(stack.getItem() == ModItems.cheeseHelmet)
 		{
-			return Reference.MODID + ":models/armor/livearmor1.png";
+			return Reference.MODID + ":models/armor/cheesearmor1.png";
 		}
 		else
 		{
-			System.out.println("Invalid Item ItemLiveArmor");
+			System.out.println("Invalid Item ItemCheeseArmor");
 			return null;
 		}
 	}

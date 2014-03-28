@@ -1,4 +1,4 @@
-package com.wuppy.livemodding.help;
+package com.wuppy.cheesemodding.help;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

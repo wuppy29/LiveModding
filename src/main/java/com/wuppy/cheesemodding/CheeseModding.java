@@ -1,9 +1,9 @@
-package com.wuppy.livemodding;
+package com.wuppy.cheesemodding;
 
-import com.wuppy.livemodding.blocks.ModBlocks;
-import com.wuppy.livemodding.handler.ModRecipes;
-import com.wuppy.livemodding.help.Reference;
-import com.wuppy.livemodding.items.ModItems;
+import com.wuppy.cheesemodding.blocks.ModBlocks;
+import com.wuppy.cheesemodding.handler.ModRecipes;
+import com.wuppy.cheesemodding.help.Reference;
+import com.wuppy.cheesemodding.items.ModItems;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -15,7 +15,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  * same for ANY mod. So find a name which is new. Version is the current mod version.
  */
 @Mod(modid = Reference.MODID, version = Reference.VERSION)
-public class LiveModding 
+public class CheeseModding
 {
 
     /**

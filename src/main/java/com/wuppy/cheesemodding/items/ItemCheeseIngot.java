@@ -1,16 +1,16 @@
-package com.wuppy.livemodding.items;
+package com.wuppy.cheesemodding.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-import com.wuppy.livemodding.help.Reference;
+import com.wuppy.cheesemodding.help.Reference;
 
-public class ItemLiveIngot extends Item 
+public class ItemCheeseIngot extends Item
 {
-	public ItemLiveIngot()
+	public ItemCheeseIngot()
 	{
 		super();
-		setUnlocalizedName("liveIngot");
+		setUnlocalizedName("cheeseIngot");
 		setTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(CreativeTabs.tabMaterials);
 	}
